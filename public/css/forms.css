@@ -1,0 +1,109 @@
+/* public/css/forms.css */
+.form-card {
+    background-color: #ffffff;
+    border-radius: 35px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    max-width: 800px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #555;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-control {
+    width: 100%;
+    background-color: #f7f7f7;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: #111;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: #fac233;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(250, 194, 51, 0.1);
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+.form-row .form-group {
+    flex: 1;
+}
+
+.btn-submit {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-submit:hover {
+    background-color: #333;
+}
+
+.input-group-price {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: 0.2s;
+}
+.input-group-price:focus-within {
+    border-color: #fac233;
+    background-color: #fff;
+}
+
+.input-group-price .prefix {
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.03);
+    font-weight: 800;
+    color: #888;
+    border-right: 1px solid #eee;
+}
+
+.input-group-price input {
+    border: none;
+    background: transparent;
+    padding: 15px 20px;
+    flex-grow: 1;
+    outline: none;
+    font-weight: 700;
+}
+
+select.form-control {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3%3Cpath fill='%23aaa' d='M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 15px;
+    padding-right: 50px;
+}
