@@ -241,4 +241,16 @@ class AuthController extends Controller
             ], 401);
         }
     }
+
+    public function deleteAccount(Request $request)
+    {
+        $user = $request->user();
+        $user->tokens()->delete();
+        $user->delete();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Akun berhasil dihapus.'
+        ]);
+    }
 }

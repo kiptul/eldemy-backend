@@ -36,6 +36,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/user', [AuthController::class, 'user']);
     Route::put('/user/nickname', [AuthController::class, 'updateNickname']);
     Route::post('/user/profile', [AuthController::class, 'updateProfile']);
+    Route::delete('/user', [AuthController::class, 'deleteAccount']);
 
     // Notifications
     Route::get('/notifications', [NotificationController::class, 'index']);
