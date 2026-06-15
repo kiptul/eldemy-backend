@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kebijakan Privasi — Eldemy</title>
+  <meta name="description" content="Kebijakan Privasi aplikasi Eldemy — platform kursus online." />
+  <style>
+    :root {
+      --primary: #F06292;
+      --dark: #1f2937;
+      --muted: #6b7280;
+      --bg: #f7f7fb;
+      --card: #ffffff;
+      --border: #ececf1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+    header.head {
+      text-align: center;
+      padding: 32px 20px;
+      background: linear-gradient(135deg, rgba(240,98,146,0.12), rgba(240,98,146,0.02));
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      margin-bottom: 28px;
+    }
+    header.head h1 { margin: 0 0 6px; font-size: 1.9rem; letter-spacing: -0.5px; }
+    header.head .sub { color: var(--muted); font-size: 0.95rem; }
+    header.head .updated {
+      display: inline-block; margin-top: 14px; font-size: 0.78rem; font-weight: 600;
+      color: var(--primary); background: rgba(240,98,146,0.1);
+      padding: 6px 14px; border-radius: 100px;
+    }
+    section.card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 22px 24px; margin-bottom: 18px;
+    }
+    h2 { font-size: 1.15rem; margin: 0 0 12px; }
+    h2 .num { color: var(--primary); margin-right: 8px; }
+    p { margin: 0 0 12px; }
+    ul { margin: 0 0 4px; padding-left: 22px; }
+    li { margin-bottom: 8px; }
+    strong { color: var(--dark); }
+    a { color: var(--primary); }
+    .contact { background: rgba(240,98,146,0.06); }
+    .contact .row { display: flex; gap: 8px; flex-wrap: wrap; padding: 6px 0; }
+    .contact .label { font-weight: 700; min-width: 90px; }
+    footer.foot { text-align: center; color: var(--muted); font-size: 0.82rem; margin-top: 28px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="head">
+      <h1>Kebijakan Privasi</h1>
+      <div class="sub">Eldemy — Platform Kursus Online</div>
+      <div class="updated">Terakhir diperbarui: 14 Juni 2026</div>
+    </header>
+
+    <section class="card">
+      <p>Selamat datang di Eldemy. Kami menghargai kepercayaan Anda dan berkomitmen untuk melindungi privasi serta data pribadi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan aplikasi dan layanan kami.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">1.</span>Data yang Kami Kumpulkan</h2>
+      <ul>
+        <li><strong>Data Akun:</strong> Nama lengkap, nama panggilan, alamat email, dan foto profil yang Anda berikan saat registrasi atau melalui login Google.</li>
+        <li><strong>Data Pembelajaran:</strong> Riwayat kursus yang dibeli, progres penyelesaian materi, hasil kuis, dan sertifikat yang diterbitkan.</li>
+        <li><strong>Data Transaksi:</strong> Informasi pembelian kursus termasuk ID pesanan, jumlah pembayaran, metode pembayaran, dan status transaksi.</li>
+        <li><strong>Data Teknis:</strong> Jenis perangkat, sistem operasi, dan versi aplikasi untuk keperluan dukungan dan peningkatan layanan.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">2.</span>Penggunaan Data</h2>
+      <ul>
+        <li>Menyediakan dan mengelola akun Anda di platform Eldemy.</li>
+        <li>Memproses pembelian kursus dan memverifikasi pembayaran melalui payment gateway yang terintegrasi.</li>
+        <li>Melacak progres belajar, menyimpan hasil kuis, dan menerbitkan sertifikat kelulusan.</li>
+        <li>Mengirimkan notifikasi penting terkait status pembayaran, pembaruan kursus, dan pencapaian Anda.</li>
+        <li>Meningkatkan kualitas layanan, performa aplikasi, dan pengalaman pengguna.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">3.</span>Pembayaran &amp; Keamanan Finansial</h2>
+      <p>Eldemy menggunakan layanan payment gateway pihak ketiga <strong>(iPaymu)</strong> untuk memproses pembayaran. Kami <strong>tidak menyimpan</strong> informasi kartu kredit, debit, atau detail perbankan Anda di server kami.</p>
+      <p>Seluruh transaksi pembayaran diproses melalui koneksi terenkripsi dan sesuai standar keamanan industri. Kami hanya menyimpan referensi transaksi (ID pesanan dan status pembayaran) untuk keperluan verifikasi dan riwayat pembelian.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">4.</span>Keamanan Data</h2>
+      <ul>
+        <li>Kata sandi disimpan dalam bentuk hash terenkripsi (bcrypt) dan tidak pernah disimpan dalam teks biasa.</li>
+        <li>Autentikasi API menggunakan token berbasis Laravel Sanctum dengan transmisi data terenkripsi (HTTPS).</li>
+        <li>Login melalui Google OAuth 2.0 diverifikasi langsung ke server Google untuk memastikan keaslian identitas.</li>
+        <li>Akses ke data hanya diberikan kepada pengguna yang terautentikasi melalui mekanisme token keamanan.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">5.</span>Layanan Pihak Ketiga</h2>
+      <p>Eldemy mengintegrasikan layanan pihak ketiga berikut yang mungkin mengumpulkan data sesuai kebijakan privasi mereka masing-masing:</p>
+      <ul>
+        <li><strong>Google Sign-In</strong> — untuk autentikasi akun dan login cepat.</li>
+        <li><strong>iPaymu Payment Gateway</strong> — untuk pemrosesan pembayaran kursus.</li>
+        <li><strong>Google Fonts</strong> — untuk tampilan tipografi di aplikasi.</li>
+      </ul>
+      <p>Kami menyarankan Anda membaca kebijakan privasi dari masing-masing layanan tersebut.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">6.</span>Privasi Anak</h2>
+      <p>Eldemy dapat digunakan oleh pelajar dari berbagai jenjang, termasuk anak-anak. Untuk pengguna di bawah usia 13 tahun, kami menganjurkan penggunaan aplikasi di bawah pengawasan orang tua atau wali. Kami hanya mengumpulkan data yang diperlukan untuk menyediakan layanan pendidikan dan tidak menampilkan iklan maupun melakukan pelacakan untuk tujuan periklanan. Orang tua atau wali dapat meminta penghapusan data anak dengan menghubungi kami.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">7.</span>Hak Pengguna</h2>
+      <ul>
+        <li>Mengakses data pribadi yang kami simpan tentang Anda.</li>
+        <li>Memperbarui atau mengoreksi informasi profil Anda.</li>
+        <li>Meminta penghapusan akun dan data pribadi Anda.</li>
+        <li>Menolak pengiriman notifikasi non-esensial.</li>
+      </ul>
+    </section>
+
+    <section class="card contact">
+      <h2><span class="num">8.</span>Hubungi Kami</h2>
+      <p>Jika Anda memiliki pertanyaan, kekhawatiran, atau permintaan terkait kebijakan privasi ini, silakan hubungi kami:</p>
+      <div class="row"><span class="label">📧 Email</span><a href="mailto:mewarrahman@gmail.com">mewarrahman@gmail.com</a></div>
+      <div class="row"><span class="label">🌐 Website</span><a href="https://eldemy.eltaimayu.my.id">eldemy.eltaimayu.my.id</a></div>
+    </section>
+
+    <footer class="foot">
+      <p>Dengan menggunakan aplikasi Eldemy, Anda menyetujui pengumpulan dan penggunaan informasi sesuai dengan Kebijakan Privasi ini.</p>
+      <p>&copy; 2026 Eldemy. Hak cipta dilindungi.</p>
+    </footer>
+  </div>
+</body>
+</html>

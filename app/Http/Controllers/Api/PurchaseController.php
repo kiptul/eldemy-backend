@@ -26,7 +26,10 @@ class PurchaseController extends Controller
         Purchase::create([
             'user_id' => $user->id,
             'course_id' => $course_id,
-            'status' => 'success'
+            'order_id' => 'FREE-' . $user->id . '-' . $course_id . '-' . time(),
+            'amount' => 0,
+            'status' => 'success',
+            'payment_type' => 'free'
         ]);
 
         return response()->json([
