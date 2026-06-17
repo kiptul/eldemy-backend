@@ -40,7 +40,7 @@
 <div class="content-card">
     <h2><span class="icon icon-purple"><i class="fa-solid fa-list-check"></i></span> 4. Prosedur Pengajuan</h2>
     <ol>
-        <li>Kirim email ke <a href="mailto:mewarrahman@gmail.com">mewarrahman&#64;gmail.com</a> dengan subjek "Pengajuan Refund - [Nama Kursus]".</li>
+        <li>Kirim email ke <a href="mailto:eldemycourses@gmail.com">eldemycourses&#64;gmail.com</a> dengan subjek "Pengajuan Refund - [Nama Kursus]".</li>
         <li>Sertakan: nama lengkap, email terdaftar, nama kursus, Order ID, alasan detail, dan bukti pendukung.</li>
         <li>Tim kami akan meninjau dalam <strong>3-5 hari kerja</strong>.</li>
         <li>Keputusan dikirim via email. Jika disetujui, dana dikembalikan dalam <strong>7-14 hari kerja</strong>.</li>
@@ -58,7 +58,7 @@
 
 <div class="content-card">
     <h2><span class="icon icon-green"><i class="fa-solid fa-envelope"></i></span> 6. Kontak</h2>
-    <p>Email: <a href="mailto:mewarrahman@gmail.com">mewarrahman&#64;gmail.com</a> | Website: <a href="https://eldemy.eltaimayu.my.id">eldemy.eltaimayu.my.id</a></p>
+    <p>Email: <a href="mailto:eldemycourses@gmail.com">eldemycourses&#64;gmail.com</a> | Website: <a href="https://eldemy.eltaimayu.my.id">eldemy.eltaimayu.my.id</a></p>
 </div>
 
 @endsection

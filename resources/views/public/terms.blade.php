@@ -92,7 +92,7 @@
     <h2><span class="icon icon-teal"><i class="fa-solid fa-envelope"></i></span> 8. Kontak</h2>
     <p>Jika Anda memiliki pertanyaan atau kekhawatiran mengenai Syarat & Ketentuan ini, silakan hubungi kami melalui:</p>
     <ul>
-        <li><strong>Email:</strong> <a href="mailto:mewarrahman@gmail.com">mewarrahman&#64;gmail.com</a></li>
+        <li><strong>Email:</strong> <a href="mailto:eldemycourses@gmail.com">eldemycourses&#64;gmail.com</a></li>
         <li><strong>Website:</strong> <a href="https://eldemy.eltaimayu.my.id">https://eldemy.eltaimayu.my.id</a></li>
     </ul>
 </div>

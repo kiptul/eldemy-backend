@@ -261,7 +261,7 @@ a{text-decoration:none;color:inherit}
 <div class="footer-col"><h4>Kebijakan</h4><a href="/terms">Syarat & Ketentuan</a><a href="/refund-policy">Kebijakan Refund</a><a href="/faq">FAQ</a></div>
 <div class="footer-col">
 <h4>Kontak Kami</h4>
-<a href="mailto:mewarrahman@gmail.com"><i class="fa-solid fa-envelope"></i> mewarrahman@gmail.com</a>
+<a href="mailto:eldemycourses@gmail.com"><i class="fa-solid fa-envelope"></i> eldemycourses@gmail.com</a>
 <a href="tel:085282777446"><i class="fa-solid fa-phone"></i> 0852-8277-7446</a>
 <a href="https://eldemy.eltaimayu.my.id"><i class="fa-solid fa-globe"></i> eldemy.eltaimayu.my.id</a>
 <div style="margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.08)">

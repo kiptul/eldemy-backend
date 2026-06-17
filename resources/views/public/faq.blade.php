@@ -141,7 +141,7 @@
     <h2><span class="icon icon-green"><i class="fa-solid fa-headset"></i></span> Butuh Bantuan?</h2>
     <p>Jika pertanyaan Anda belum terjawab, silakan hubungi tim dukungan kami:</p>
     <ul>
-        <li><strong>Email:</strong> <a href="mailto:mewarrahman@gmail.com">mewarrahman&#64;gmail.com</a></li>
+        <li><strong>Email:</strong> <a href="mailto:eldemycourses@gmail.com">eldemycourses&#64;gmail.com</a></li>
         <li><strong>Website:</strong> <a href="https://eldemy.eltaimayu.my.id">eldemy.eltaimayu.my.id</a></li>
     </ul>
 </div>

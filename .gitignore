@@ -29,3 +29,5 @@ Thumbs.db
 
 # Script test/debug (jangan commit)
 test_*.php
+
+test-*.php

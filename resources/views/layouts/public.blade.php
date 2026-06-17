@@ -112,7 +112,7 @@ a{text-decoration:none;color:inherit}
 <a href="/faq">FAQ</a>
 </div>
 <div style="margin-top:20px;font-size:.82rem;color:#999;line-height:1.7">
-<p><i class="fa-solid fa-envelope" style="margin-right:4px;color:var(--secondary)"></i> mewarrahman@gmail.com &nbsp;|&nbsp; <i class="fa-solid fa-phone" style="margin-right:4px;color:var(--secondary)"></i> 0852-8277-7446</p>
+<p><i class="fa-solid fa-envelope" style="margin-right:4px;color:var(--secondary)"></i> eldemycourses@gmail.com &nbsp;|&nbsp; <i class="fa-solid fa-phone" style="margin-right:4px;color:var(--secondary)"></i> 0852-8277-7446</p>
 <p style="margin-top:4px"><i class="fa-solid fa-location-dot" style="margin-right:4px;color:var(--secondary)"></i> Perum Mustika Prakasa, Kel. Cibalongsari, Kec. Klari, Kab. Karawang, Jawa Barat 41371</p>
 </div>
 <p class="footer-text" style="margin-top:16px">&copy; {{ date('Y') }} Eldemy. Pembayaran diproses oleh <strong style="color:var(--secondary)">iPaymu</strong> — Payment Gateway Resmi Indonesia <i class="fa-solid fa-shield-halved" style="color:#4CAF50"></i></p>
