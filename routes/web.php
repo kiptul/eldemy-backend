@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\AuthController;
@@ -69,5 +69,3 @@ Route::middleware(['auth', \App\Http\Middleware\IsInstructor::class])->group(fun
 
 });
 
-Route::get('/checkout/mock-payment', [\App\Http\Controllers\Api\CheckoutController::class, 'showMockPayment'])->name('checkout.mock_payment');
-Route::post('/checkout/mock-payment/process', [\App\Http\Controllers\Api\CheckoutController::class, 'processMockPayment'])->name('checkout.mock_payment.process');
